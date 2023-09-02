@@ -89,12 +89,31 @@ nav ul li a{
     background: rgb(255, 255, 255);
     margin-top: 50px;
 }
+@media (max-width:600px) {
+    #main{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+    nav ul{
+        display: none;
+        
+    }
+
+}
+
 .products{
     width: 270px;
     height: 300px;
     border: 1px solid black;
     float: left;
     margin: 5px;
+}
+@media (max-width:600px) {
+    .products{
+        width: 100%;
+        margin: auto;
+    }
 }
 .products h4{
     width: 100%;
